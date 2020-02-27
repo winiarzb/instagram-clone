@@ -7,7 +7,7 @@
                 <img src="/storage/{{ $post->image }}" class="w-100">
             </div>
             <div class="col-4">
-                <span>
+                <div>
                     <div class="d-flex align-items-center">
                         <div class="pr-3">
                             <img src="{{ $post->user->profile->profileImage() }}" class="rounded-circle w-100"
@@ -30,6 +30,7 @@
                             </a>
                         </span> {{ $post->caption }}
                     </p>
+                </div>
             </div>
         </div>
     </div>
